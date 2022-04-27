@@ -69,6 +69,10 @@ function btn_range() {
     alert(document.getElementById('vol').value);
 }
 
+function myFunction(myValue){
+    document.getElementById("currentValue").innerHTML = myValue;
+}
+
 function btn_reset() {
     alert("Firstname: " + document.getElementById('f_name').value +"\n" +  "Lastname: " + document.getElementById('l_name').value)
 }
